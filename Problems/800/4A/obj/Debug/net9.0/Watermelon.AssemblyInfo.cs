@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Watermelon")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ead8d5621933395a50b06e6378459fb187d6f7e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Watermelon")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Watermelon")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
