@@ -2,6 +2,8 @@
 
 using namespace std;
 
+
+
 int main() {
     int amt_problems, num_chars;
     string input;
