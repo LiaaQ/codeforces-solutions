@@ -8,19 +8,8 @@ int main() {
 
     for (int i = 0; i < amt; i++) {
         cin >> n >> k;
-
-        if(k<n) result = k;
-        else if(k==n) result = k+1;
-        else if(n==2) result = k*n-1;
-        else if(k%n==0) {
-            result = k + n - 1;
-        }
-        else {
-            int a = k / (n-1);
-            int b = k % (n-1);
-            result = (n-1)*a + a + b;
-        }
-
+        int add = (k-1) / (n-1);
+        result = k + add;
         cout << result << endl;
         result = 0;
     }
