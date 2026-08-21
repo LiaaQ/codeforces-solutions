@@ -29,8 +29,8 @@ int main() {
                 prev = curr;
             } else { // Bob
                 while (curr <= prev && !candies.empty()) {
-                    curr+=candies[candies.size()-1];
-                    candies.erase(candies.end());
+                    curr+=candies.back();
+                    candies.erase(candies.end()-1);
                 }
                 score_b += curr;
                 prev = curr;
