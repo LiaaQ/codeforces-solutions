@@ -19,12 +19,26 @@ int main()
             amounts[a[i]]++;
         }
         
-        
+        if(amounts[0] == 1) {
+            cout << "NO" << endl;
+            continue;
+        } else cout << "YES" << endl;
 
-        for(auto &x : amounts) {
+        char last = 'B';
 
+        for(int i = 0; i < n; i++) {
+            if(a[i] == 0) {
+                if(last == 'B') {
+                    cout << 'A';
+                    last = 'A';
+                } else {
+                    cout << 'B';
+                    last = 'B';
+                }
+            } else cout << 'C';
         }
 
+        cout << endl;
     }
 
     return 0;
